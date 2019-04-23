@@ -1,0 +1,212 @@
+[
+    [
+        "/home/vsatheesh/maker-lab/succulent-factory/force-app",
+        {
+            "state": "n",
+            "sourcePath": "/home/vsatheesh/maker-lab/succulent-factory/force-app",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 4096,
+            "modifiedTime": 1555998610545,
+            "changeTime": 1555998610545,
+            "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "/home/vsatheesh/maker-lab/succulent-factory/force-app/main",
+        {
+            "state": "n",
+            "sourcePath": "/home/vsatheesh/maker-lab/succulent-factory/force-app/main",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 4096,
+            "modifiedTime": 1555998610545,
+            "changeTime": 1555998610545,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/vsatheesh/maker-lab/succulent-factory/force-app/main/default",
+        {
+            "state": "n",
+            "sourcePath": "/home/vsatheesh/maker-lab/succulent-factory/force-app/main/default",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 4096,
+            "modifiedTime": 1555998610545,
+            "changeTime": 1555998610545,
+            "contentHash": "0c23d243af87c119a747c6ef2bc644fff43af4e5",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/vsatheesh/maker-lab/succulent-factory/force-app/main/default/applications",
+        {
+            "state": "n",
+            "sourcePath": "/home/vsatheesh/maker-lab/succulent-factory/force-app/main/default/applications",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 4096,
+            "modifiedTime": 1555998610545,
+            "changeTime": 1555998610545,
+            "contentHash": "7f7e049b78e44d414e9ebd76a42b129cd87ee278",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/vsatheesh/maker-lab/succulent-factory/force-app/main/default/applications/Succulent_Factory.app-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/home/vsatheesh/maker-lab/succulent-factory/force-app/main/default/applications/Succulent_Factory.app-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 942,
+            "modifiedTime": 1555998610545,
+            "changeTime": 1555998610545,
+            "contentHash": "c6a3bb6897bbe503d414f1e4f9120ec62031e35d",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/vsatheesh/maker-lab/succulent-factory/force-app/main/default/contentassets",
+        {
+            "state": "n",
+            "sourcePath": "/home/vsatheesh/maker-lab/succulent-factory/force-app/main/default/contentassets",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 4096,
+            "modifiedTime": 1555998610545,
+            "changeTime": 1555998610545,
+            "contentHash": "e34a3937386596d026c69264ed06201c1b38c89a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/vsatheesh/maker-lab/succulent-factory/force-app/main/default/contentassets/succ1.asset",
+        {
+            "state": "n",
+            "sourcePath": "/home/vsatheesh/maker-lab/succulent-factory/force-app/main/default/contentassets/succ1.asset",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 20476,
+            "modifiedTime": 1555998610545,
+            "changeTime": 1555998610545,
+            "contentHash": "94d3cfedf1247b492783a9e5fd7c028bf012d8e5",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/vsatheesh/maker-lab/succulent-factory/force-app/main/default/contentassets/succ1.asset-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/home/vsatheesh/maker-lab/succulent-factory/force-app/main/default/contentassets/succ1.asset-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 522,
+            "modifiedTime": 1555998610545,
+            "changeTime": 1555998610545,
+            "contentHash": "bdb3fd5e3be11a646cf1f307c0aea3764236a252",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/vsatheesh/maker-lab/succulent-factory/force-app/main/default/flexipages",
+        {
+            "state": "n",
+            "sourcePath": "/home/vsatheesh/maker-lab/succulent-factory/force-app/main/default/flexipages",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 4096,
+            "modifiedTime": 1555998610545,
+            "changeTime": 1555998610545,
+            "contentHash": "f7747285eda08a5da41301f5ae9862fd6fe9d582",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/vsatheesh/maker-lab/succulent-factory/force-app/main/default/flexipages/Succulent_Factory_UtilityBar.flexipage-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/home/vsatheesh/maker-lab/succulent-factory/force-app/main/default/flexipages/Succulent_Factory_UtilityBar.flexipage-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 512,
+            "modifiedTime": 1555998610545,
+            "changeTime": 1555998610545,
+            "contentHash": "402faf05707b2e031fa33a8c25db944583c58a9f",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/vsatheesh/maker-lab/succulent-factory/force-app/main/default/lwc",
+        {
+            "state": "n",
+            "sourcePath": "/home/vsatheesh/maker-lab/succulent-factory/force-app/main/default/lwc",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 4096,
+            "modifiedTime": 1555998610545,
+            "changeTime": 1555998610545,
+            "contentHash": "a973ac1b5be0e216b2a2db1b82ae5ba97f4086f4",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/vsatheesh/maker-lab/succulent-factory/force-app/main/default/permissionsets",
+        {
+            "state": "n",
+            "sourcePath": "/home/vsatheesh/maker-lab/succulent-factory/force-app/main/default/permissionsets",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 4096,
+            "modifiedTime": 1555998610545,
+            "changeTime": 1555998610545,
+            "contentHash": "7ffbe1e58e559fb90cc96d718a9e09faae6c43a6",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/vsatheesh/maker-lab/succulent-factory/force-app/main/default/permissionsets/Succulent_Factory.permissionset-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/home/vsatheesh/maker-lab/succulent-factory/force-app/main/default/permissionsets/Succulent_Factory.permissionset-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 360,
+            "modifiedTime": 1555998610545,
+            "changeTime": 1555998610545,
+            "contentHash": "d0fe1f9af3c7346232189252db9c1dca8757c313",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/vsatheesh/maker-lab/succulent-factory",
+        {
+            "state": "n",
+            "sourcePath": "/home/vsatheesh/maker-lab/succulent-factory",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 4096,
+            "modifiedTime": 1555998610545,
+            "changeTime": 1555998610545,
+            "contentHash": "536320e1ac7c038dd9815eed25ecda4d75573df1",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ]
+]
