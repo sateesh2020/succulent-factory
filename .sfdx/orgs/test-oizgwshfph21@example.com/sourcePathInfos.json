@@ -1,0 +1,116 @@
+[
+    [
+        "/Users/vsatheesh/maker-lab/SucculentFactory/force-app",
+        {
+            "state": "n",
+            "sourcePath": "/Users/vsatheesh/maker-lab/SucculentFactory/force-app",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 96,
+            "modifiedTime": 1555932645508,
+            "changeTime": 1555932645508,
+            "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "/Users/vsatheesh/maker-lab/SucculentFactory/force-app/main",
+        {
+            "state": "n",
+            "sourcePath": "/Users/vsatheesh/maker-lab/SucculentFactory/force-app/main",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 96,
+            "modifiedTime": 1555932645508,
+            "changeTime": 1555932645508,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vsatheesh/maker-lab/SucculentFactory/force-app/main/default",
+        {
+            "state": "u",
+            "sourcePath": "/Users/vsatheesh/maker-lab/SucculentFactory/force-app/main/default",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 160,
+            "modifiedTime": 1555933332134,
+            "changeTime": 1555933332134,
+            "contentHash": "05024b18c29d62b8beaf03bddcec18e750d0fc50"
+        }
+    ],
+    [
+        "/Users/vsatheesh/maker-lab/SucculentFactory/force-app/main/default/aura",
+        {
+            "state": "n",
+            "sourcePath": "/Users/vsatheesh/maker-lab/SucculentFactory/force-app/main/default/aura",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 64,
+            "modifiedTime": 1555932645509,
+            "changeTime": 1555932645509,
+            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vsatheesh/maker-lab/SucculentFactory/force-app/main/default/lwc",
+        {
+            "state": "n",
+            "sourcePath": "/Users/vsatheesh/maker-lab/SucculentFactory/force-app/main/default/lwc",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 128,
+            "modifiedTime": 1555932699425,
+            "changeTime": 1555932699425,
+            "contentHash": "a973ac1b5be0e216b2a2db1b82ae5ba97f4086f4",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vsatheesh/maker-lab/SucculentFactory",
+        {
+            "state": "n",
+            "sourcePath": "/Users/vsatheesh/maker-lab/SucculentFactory",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 288,
+            "modifiedTime": 1555932695831,
+            "changeTime": 1555932695831,
+            "contentHash": "482aba1731d0a586e52ba05892f68b26d69ba4fe",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vsatheesh/maker-lab/SucculentFactory/force-app/main/default/permissionsets/Succulent_Factory.permissionset-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/vsatheesh/maker-lab/SucculentFactory/force-app/main/default/permissionsets/Succulent_Factory.permissionset-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 360,
+            "modifiedTime": 1555933332136,
+            "changeTime": 1555933332136,
+            "contentHash": "d0fe1f9af3c7346232189252db9c1dca8757c313"
+        }
+    ],
+    [
+        "/Users/vsatheesh/maker-lab/SucculentFactory/force-app/main/default/permissionsets",
+        {
+            "state": "u",
+            "sourcePath": "/Users/vsatheesh/maker-lab/SucculentFactory/force-app/main/default/permissionsets",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 96,
+            "modifiedTime": 1555933332136,
+            "changeTime": 1555933332136,
+            "contentHash": "7ffbe1e58e559fb90cc96d718a9e09faae6c43a6"
+        }
+    ]
+]
