@@ -1,0 +1,15 @@
+<template>
+    <lightning:card title={succulent.name} iconName="standard:account" >
+        <p class="slds-p-horizontal_small">
+            {succulent.name}
+        </p>
+        <a:set attribute="footer">
+            <p class="slds-p-horizontal_small">
+                {succulent.scientific_name__c}
+            </p>
+            <p class="slds-p-horizontal_small">
+                {succulent.other_name__c}
+            </p>           
+        </a:set>
+    </lightning:card>
+</template>
