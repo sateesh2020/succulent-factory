@@ -10,7 +10,7 @@
     <targetConfigs>
         <targetConfig targets="lightning__RecordPage">
             <property name="searchBarIsVisible" type="Boolean" label="Search bar visible" />
-            <property name="tilesAreDraggable" type="Boolean" label="Product tiles are draggable" />
+            <property name="tilesAreDraggable" type="Boolean" label="Succulent tiles are draggable" />
         </targetConfig>
     </targetConfigs>
 </LightningComponentBundle>

@@ -3,9 +3,33 @@
     <fullName>Grows_During__c</fullName>
     <externalId>false</externalId>
     <label>Grows During</label>
-    <length>180</length>
-    <required>true</required>
+    <required>false</required>
     <trackTrending>false</trackTrending>
-    <type>Text</type>
-    <unique>false</unique>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Spring</fullName>
+                <default>false</default>
+                <label>Spring</label>
+            </value>
+            <value>
+                <fullName>Summer</fullName>
+                <default>false</default>
+                <label>Summer</label>
+            </value>
+            <value>
+                <fullName>Fall</fullName>
+                <default>false</default>
+                <label>Fall</label>
+            </value>
+            <value>
+                <fullName>Winter</fullName>
+                <default>false</default>
+                <label>Winter</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
 </CustomField>

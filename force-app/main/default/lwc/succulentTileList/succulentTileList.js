@@ -18,7 +18,7 @@ export default class SucculentTileList extends LightningElement {
     @api searchBarIsVisible = false;
 
     /**
-     * Whether the product tiles are draggable.
+     * Whether the succulent tiles are draggable.
      * TODO - normalize value because it may come as a boolean, string or otherwise.
      */
     @api tilesAreDraggable = false;
@@ -26,7 +26,7 @@ export default class SucculentTileList extends LightningElement {
     /** All available Succulent__c[]. */
     @track succulents = [];
 
-    /** Current page in the product list. */
+    /** Current page in the succulent list. */
     @track pageNumber = 1;
 
     /** The number of items on a page. */

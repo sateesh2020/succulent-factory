@@ -2,11 +2,9 @@
     <div draggable={draggable} ondragstart={handleDragStart}>
         <a onclick={handleClick}>
             <div class="content">
-                <img
-                    src={pictureUrl}
-                    class="succulent slds-align_absolute-center"
-                    alt="succulent picture"
-                />
+                <div class="succulent-thumb slds-align_absolute-center">
+                    <img src={pictureUrl} alt="Succulent" />
+                </div>
                 <div>
                     <p class="title slds-align_absolute-center">{name}</p>
                 </div>

@@ -1,13 +1,20 @@
 <template>
     <lightning-card icon-name="standard:account">
         <template slot="title" if:true={succulent.data}>
-            <span>{succulent.name}</span>
+            <span>{succulent.data.fields.name}</span>
             <lightning-button-icon
                 icon-name="utility:expand_alt"
                 slot="actions"
                 onclick={handleNavigateToRecord}
             ></lightning-button-icon>
             <div class="slds-m-horizontal_medium">
+                <div class="succulent-image">
+                    <img
+                        src={succulent.data.fields.Image__c.value}
+                        class="succulent"
+                        alt="Succulent picture"
+                    />
+                </div>
                 <div class="row">
                     <div>
                         Family
@@ -29,7 +36,7 @@
                         Other Name(s)
                     </div>
                     <div>
-                        {succulent.data.fields.Other_Name__c.value}
+                        {succulent.data.fields.Other_Names__c.value}
                     </div>
                 </div>
                 <div class="row">
@@ -38,14 +45,6 @@
                     </div>
                     <div>
                         {succulent.data.fields.Toxic__c.value}
-                    </div>
-                </div>
-                <div class="row">
-                    <div>
-                        Family
-                    </div>
-                    <div>
-                        {succulent.data.fields.Family__c.value}
                     </div>
                 </div>
                 <section>Care</section>

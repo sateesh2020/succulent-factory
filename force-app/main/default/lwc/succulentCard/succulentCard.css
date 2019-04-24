@@ -1,8 +1,23 @@
-img.succulent {
-    width: 100%;
-    margin-bottom: 8px;
+.succulent-image {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    margin: auto 10px;
+    position: relative;
 }
+.succulent-image img {
+    position: absolute;
+    margin: auto;
+    min-height: 100%;
+    min-width: 100%;
 
+    /* For the following settings we set 100%, but it can be higher if needed 
+    See the answer's update */
+    left: -100%;
+    right: -100%;
+    top: -100%;
+    bottom: -100%;
+}
 .row {
     display: flex;
     border-bottom: solid 1px #f3f2f2;

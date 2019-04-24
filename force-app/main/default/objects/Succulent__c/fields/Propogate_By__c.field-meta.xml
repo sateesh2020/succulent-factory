@@ -3,9 +3,28 @@
     <fullName>Propogate_By__c</fullName>
     <externalId>false</externalId>
     <label>Propogate By</label>
-    <length>180</length>
-    <required>false</required>
+    <required>true</required>
     <trackTrending>false</trackTrending>
-    <type>Text</type>
-    <unique>false</unique>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cuttings</fullName>
+                <default>false</default>
+                <label>Cuttings</label>
+            </value>
+            <value>
+                <fullName>Leaves</fullName>
+                <default>false</default>
+                <label>Leaves</label>
+            </value>
+            <value>
+                <fullName>Offsets</fullName>
+                <default>false</default>
+                <label>Offsets</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
 </CustomField>
