@@ -1,0 +1,22 @@
+<template>
+    <lightning-layout vertical-align="center">
+        <lightning-layout-item
+            ><img
+                src={succulent.Image__c}
+                class="succulent"
+                alt="Succulent Picture"
+        /></lightning-layout-item>
+        <lightning-layout-item
+            flexibility="grow"
+            class="slds-p-horizontal_small"
+        >
+            <p>{succulent.Name}</p>
+        </lightning-layout-item>
+        <lightning-layout-item
+            ><lightning-button
+                label="View Details"
+                onclick={handleViewDetailsClick}
+            ></lightning-button
+        ></lightning-layout-item>
+    </lightning-layout>
+</template>

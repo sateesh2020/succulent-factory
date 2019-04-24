@@ -13,8 +13,10 @@
     <label>Succulent Factory</label>
     <navType>Standard</navType>
     <tabs>standard-Account</tabs>
+    <tabs>Succulent_Explorer</tabs>
     <tabs>standard-Dashboard</tabs>
     <tabs>standard-report</tabs>
+    <tabs>standard-Forecasting3</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Succulent_Factory_UtilityBar</utilityBar>
 </CustomApplication>

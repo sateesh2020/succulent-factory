@@ -1,10 +1,10 @@
 {
-  "orgName": "Succulent Factory",
-  "edition": "Developer",
-  "features": [],
-  "settings": {
-    "orgPreferenceSettings": {
-      "s1DesktopEnabled": true
+    "orgName": "Succulent Factory",
+    "edition": "Developer",
+    "features": [],
+    "settings": {
+        "orgPreferenceSettings": {
+            "s1DesktopEnabled": true
+        }
     }
-  }
 }

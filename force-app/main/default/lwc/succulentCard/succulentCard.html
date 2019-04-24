@@ -1,15 +1,132 @@
 <template>
-    <lightning:card title={succulent.name} iconName="standard:account" >
-        <p class="slds-p-horizontal_small">
-            {succulent.name}
-        </p>
-        <a:set attribute="footer">
-            <p class="slds-p-horizontal_small">
-                {succulent.scientific_name__c}
-            </p>
-            <p class="slds-p-horizontal_small">
-                {succulent.other_name__c}
-            </p>           
-        </a:set>
-    </lightning:card>
+    <lightning-card icon-name="standard:account">
+        <template slot="title" if:true={succulent.data}>
+            <span>{succulent.name}</span>
+            <lightning-button-icon
+                icon-name="utility:expand_alt"
+                slot="actions"
+                onclick={handleNavigateToRecord}
+            ></lightning-button-icon>
+            <div class="slds-m-horizontal_medium">
+                <div class="row">
+                    <div>
+                        Family
+                    </div>
+                    <div>
+                        {succulent.data.fields.Family__c.value}
+                    </div>
+                </div>
+                <div class="row">
+                    <div>
+                        Scientific Name
+                    </div>
+                    <div>
+                        {succulent.data.fields.Scientific_Name__c.value}
+                    </div>
+                </div>
+                <div class="row">
+                    <div>
+                        Other Name(s)
+                    </div>
+                    <div>
+                        {succulent.data.fields.Other_Name__c.value}
+                    </div>
+                </div>
+                <div class="row">
+                    <div>
+                        Toxic
+                    </div>
+                    <div>
+                        {succulent.data.fields.Toxic__c.value}
+                    </div>
+                </div>
+                <div class="row">
+                    <div>
+                        Family
+                    </div>
+                    <div>
+                        {succulent.data.fields.Family__c.value}
+                    </div>
+                </div>
+                <section>Care</section>
+                <div class="row">
+                    <div>
+                        Perfect Place
+                    </div>
+                    <div>
+                        {succulent.data.fields.Perfect_Place__c.value}
+                    </div>
+                </div>
+                <div class="row">
+                    <div>
+                        Sun Light
+                    </div>
+                    <div>
+                        {succulent.data.fields.Sun_Light__c.value}
+                    </div>
+                </div>
+                <div class="row">
+                    <div>
+                        Grows During
+                    </div>
+                    <div>
+                        {succulent.data.fields.Grows_During__c.value}
+                    </div>
+                </div>
+                <div class="row">
+                    <div>
+                        Watering
+                    </div>
+                    <div>
+                        {succulent.data.fields.Watering__c.value}
+                    </div>
+                </div>
+                <section>Propogation</section>
+                <template
+                    if:true={succulent.data.fields.Leaf_Propogation__c.value}
+                >
+                    <div class="row">
+                        <div>
+                            Leaf Propogation
+                        </div>
+                        <div>
+                            {succulent.data.fields.Leaf_Propogation__c.value}
+                        </div>
+                    </div>
+                </template>
+                <template
+                    if:true={succulent.data.fields.Cut_Propogation__c.value}
+                >
+                    <div class="row">
+                        <div>
+                            Cut Propogation
+                        </div>
+                        <div>
+                            {succulent.data.fields.Cut_Propogation__c.value}
+                        </div>
+                    </div>
+                </template>
+                <template
+                    if:true={succulent.data.fields.Offset_Propogation__c.value}
+                >
+                    <div class="row">
+                        <div>
+                            Offset Propogation
+                        </div>
+                        <div>
+                            {succulent.data.fields.Offset_Propogation__c.value}
+                        </div>
+                    </div>
+                </template>
+            </div>
+        </template>
+        <template if:true={noData}>
+            <c-placeholder message="Select a succulent to see details">
+            </c-placeholder>
+        </template>
+
+        <template if:true={succulent.error}>
+            <c-inline-message errors={succulent.error}></c-inline-message>
+        </template>
+    </lightning-card>
 </template>

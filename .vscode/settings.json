@@ -1,3 +1,4 @@
 {
-    "eslint.nodePath": "/home/vsatheesh/.vscode/extensions/salesforce.salesforcedx-vscode-lwc-45.10.0/node_modules"
+    "eslint.nodePath": "/home/vsatheesh/.vscode/extensions/salesforce.salesforcedx-vscode-lwc-45.10.0/node_modules",
+    "editor.formatOnSave": true
 }
