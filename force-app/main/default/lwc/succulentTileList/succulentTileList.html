@@ -1,0 +1,46 @@
+<template>
+    <div class="slds-card slds-p-around_x-small">
+        <template if:true={searchBarIsVisible}>
+            <lightning-input
+                label="Search Key"
+                type="text"
+                onchange={handleSearchKeyChange}
+                class="search-bar"
+            ></lightning-input>
+        </template>
+        <template if:true={succulents.data}>
+            <template if:true={succulents.data.records.length}>
+                <div class="content">
+                    <template
+                        for:each={succulents.data.records}
+                        for:item="succulent"
+                    >
+                        <c-succulent-tile
+                            key={succulent.Id}
+                            succulent={succulent}
+                            draggable={tilesAreDraggable}
+                            onselected={handleSucculentSelected}
+                            class="slds-m-around_x-small"
+                        >
+                        </c-succulent-tile>
+                    </template>
+                </div>
+                <c-paginator
+                    page-number={pageNumber}
+                    page-size={succulents.data.pageSize}
+                    total-item-count={succulents.data.totalItemCount}
+                    onprevious={handlePreviousPage}
+                    onnext={handleNextPage}
+                ></c-paginator>
+            </template>
+            <template if:false={succulents.data.records.length}>
+                <c-placeholder
+                    message="There are no succulents matching your current selection"
+                ></c-placeholder>
+            </template>
+        </template>
+        <template if:true={succulents.error}>
+            <c-inline-message errors={succulents.error}></c-inline-message>
+        </template>
+    </div>
+</template>

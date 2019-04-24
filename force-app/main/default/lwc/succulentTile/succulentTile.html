@@ -1,0 +1,14 @@
+<template>
+    <div draggable={draggable} ondragstart={handleDragStart}>
+        <a onclick={handleClick}>
+            <div class="content">
+                <div class="succulent-thumb slds-align_absolute-center">
+                    <img src={pictureUrl} alt="Succulent" />
+                </div>
+                <div>
+                    <p class="title slds-align_absolute-center">{name}</p>
+                </div>
+            </div>
+        </a>
+    </div>
+</template>
