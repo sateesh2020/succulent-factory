@@ -1,0 +1,112 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Succulent__c",
+                "referenceId": "Succulent__cRef1"
+            },
+            "Name": "Echeveria Doris Taylor",
+            "Family__c": "Echeveria",
+            "Flowering__c": false,
+            "Grows_During__c": "Spring;Fall",
+            "Height__c": 5,
+            "Image__c": "https://www.succulentsandsunshine.com/wp-content/uploads/2019/03/Echeveria-Doris-Taylor-care-and-propagation-information-card.jpg",
+            "Other_Names__c": "Woolly Rose",
+            "Propogate_By__c": "Cuttings",
+            "Sun_Light__c": "Full sun to partial shade",
+            "Survive_Cold__c": false,
+            "Toxic__c": "Non Toxic",
+            "Water__c": "Moderate",
+            "Width__c": 8,
+            "Zone__c": "9a"
+        },
+        {
+            "attributes": {
+                "type": "Succulent__c",
+                "referenceId": "Succulent__cRef2"
+            },
+            "Name": "Jelly Beans",
+            "Family__c": "Sedum",
+            "Flowering__c": false,
+            "Grows_During__c": "Spring;Fall",
+            "Height__c": 12,
+            "Image__c": "https://www.succulentsandsunshine.com/wp-content/uploads/2018/09/Sedum-pachyphyllum.jpg",
+            "Offset_Propogation__c": "To grow ?Jelly Beans? from cuttings use a sterile sharp knife or pair of scissors. Remove a stem from the main plant and allow it to callous for several days before placing on well-draining soil. Water whenever the soil has dried out completely.",
+            "Other_Names__c": "Many Fingers ; Blue Jelly Beans",
+            "Perfect_Place__c": "Indoor",
+            "Propogate_By__c": "Cuttings;Leaves",
+            "Scientific_Name__c": "Sedum pachyphyllum",
+            "Sun_Light__c": "Full sun to partial shade",
+            "Survive_Cold__c": false,
+            "Toxic__c": "Animals",
+            "Water__c": "Moderate",
+            "Watering__c": "Sedum pachyphyllum has typical watering needs for a succulent. Its best to use the soak and dry method and allow the soil to dry out completely between waterings.",
+            "Where_to_plant__c": "Jelly Beans is not cold hardy so if you live in a zone that gets colder than 20ï¿½ F (-6.7 C) it's best to plant this succulent in a container that can be brought indoors. It does well in full to partial sun. Plant in an area of your garden that gets",
+            "Width__c": 36,
+            "Zone__c": "9a"
+        },
+        {
+            "attributes": {
+                "type": "Succulent__c",
+                "referenceId": "Succulent__cRef3"
+            },
+            "Name": "Echeveria Black Prince",
+            "Family__c": "Echeveria",
+            "Flowering__c": false,
+            "Grows_During__c": "Spring;Fall",
+            "Height__c": 6,
+            "Image__c": "https://www.succulentsandsunshine.com/wp-content/uploads/2018/10/Echeveria-Black-Prince-succulent-care-and-propagation-information-card.jpg",
+            "Other_Names__c": "-",
+            "Propogate_By__c": "Cuttings;Leaves;Offsets",
+            "Scientific_Name__c": "-",
+            "Sun_Light__c": "Full sun to partial shade",
+            "Survive_Cold__c": false,
+            "Toxic__c": "Animals;Humans",
+            "Water__c": "Moderate",
+            "Width__c": 8,
+            "Zone__c": "9a"
+        },
+        {
+            "attributes": {
+                "type": "Succulent__c",
+                "referenceId": "Succulent__cRef4"
+            },
+            "Name": "Sedum clavatum",
+            "Family__c": "Sedum",
+            "Flowering__c": false,
+            "Grows_During__c": "Spring;Fall",
+            "Height__c": 6,
+            "Image__c": "https://www.succulentsandsunshine.com/wp-content/uploads/2018/06/Sedum-clavatum-succulent-care-and-propagation-information.jpg",
+            "Other_Names__c": "-",
+            "Propogate_By__c": "Cuttings;Leaves",
+            "Scientific_Name__c": "-",
+            "Sun_Light__c": "Full sun to partial shade",
+            "Survive_Cold__c": false,
+            "Toxic__c": "Non Toxic",
+            "Water__c": "Typical water needs for a succulent",
+            "Width__c": 12,
+            "Zone__c": "10a"
+        },
+        {
+            "attributes": {
+                "type": "Succulent__c",
+                "referenceId": "Succulent__cRef5"
+            },
+            "Name": "Echeveria Lola",
+            "Family__c": "Echeveria",
+            "Flowering__c": false,
+            "Grows_During__c": "Summer",
+            "Height__c": 6,
+            "Image__c": "https://www.succulentsandsunshine.com/wp-content/uploads/2018/06/Echeveria-lola-care-and-propagation-information.jpg",
+            "Other_Names__c": "-",
+            "Propogate_By__c": "Cuttings;Leaves;Offsets",
+            "Scientific_Name__c": "-",
+            "Sun_Light__c": "Full sun to partial shade",
+            "Survive_Cold__c": false,
+            "Toxic__c": "Non Toxic",
+            "Water__c": "Be careful not to over-water to avoid pests and root rot",
+            "Width__c": 4,
+            "Zone__c": "9"
+        }
+    ]
+}
