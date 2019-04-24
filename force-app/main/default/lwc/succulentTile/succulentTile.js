@@ -20,7 +20,7 @@ export default class succulentTile extends LightningElement {
         this.name = value.Name;
     }
 
-    /** succulent__c field values to display. */
+    /** Succulent__c field values to display. */
     @track pictureUrl;
     @track name;
 

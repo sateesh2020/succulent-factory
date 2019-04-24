@@ -17,6 +17,7 @@
     <tabs>standard-Dashboard</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Forecasting3</tabs>
+    <tabs>Succulent__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Succulent_Factory_UtilityBar</utilityBar>
 </CustomApplication>
