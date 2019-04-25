@@ -1,5 +1,5 @@
 <template>
-    <lightning-card icon-name="standard:account">
+    <lightning-card>
         <template slot="title" if:true={succulent.data}>
             <span>{succulent.data.fields.name}</span>
             <lightning-button-icon
@@ -16,7 +16,7 @@
                     />
                 </div>
                 <div class="row">
-                    <div>
+                    <div class="bold">
                         Family
                     </div>
                     <div>
@@ -24,7 +24,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div>
+                    <div class="bold">
                         Scientific Name
                     </div>
                     <div>
@@ -32,7 +32,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div>
+                    <div class="bold">
                         Other Name(s)
                     </div>
                     <div>
@@ -40,7 +40,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div>
+                    <div class="bold">
                         Toxic
                     </div>
                     <div>
@@ -49,7 +49,7 @@
                 </div>
                 <section>Care</section>
                 <div class="row">
-                    <div>
+                    <div class="bold">
                         Perfect Place
                     </div>
                     <div>
@@ -57,7 +57,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div>
+                    <div class="bold">
                         Sun Light
                     </div>
                     <div>
@@ -65,7 +65,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div>
+                    <div class="bold">
                         Grows During
                     </div>
                     <div>
@@ -73,7 +73,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div>
+                    <div class="bold">
                         Watering
                     </div>
                     <div>
@@ -85,7 +85,7 @@
                     if:true={succulent.data.fields.Leaf_Propogation__c.value}
                 >
                     <div class="row">
-                        <div>
+                        <div class="bold">
                             Leaf Propogation
                         </div>
                         <div>
@@ -97,7 +97,7 @@
                     if:true={succulent.data.fields.Cut_Propogation__c.value}
                 >
                     <div class="row">
-                        <div>
+                        <div class="bold">
                             Cut Propogation
                         </div>
                         <div>
@@ -109,7 +109,7 @@
                     if:true={succulent.data.fields.Offset_Propogation__c.value}
                 >
                     <div class="row">
-                        <div>
+                        <div class="bold">
                             Offset Propogation
                         </div>
                         <div>

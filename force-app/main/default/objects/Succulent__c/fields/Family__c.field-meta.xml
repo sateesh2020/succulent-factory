@@ -30,6 +30,16 @@
                 <default>false</default>
                 <label>Haworthia</label>
             </value>
+            <value>
+                <fullName>Un Known</fullName>
+                <default>false</default>
+                <label>Un Known</label>
+            </value>
+            <value>
+                <fullName>Cactus</fullName>
+                <default>false</default>
+                <label>Cactus</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>

@@ -9,6 +9,10 @@ SELECT Name, Family__c, Flowering__c,Growing_Season__c,Grows_During__c,Height__c
 
 ```
 
+```sh
+SELECT Id, Name, Image__c FROM Succulent__c WHERE Name LIKE 'aloe' AND Family__c IN ('Aloe','Echeveria','Haworthia','Un Known','Cactus') AND Grows_During__c IN ('Spring','Summer','Fall','Winter') AND Propogate_By__c IN ('Leaves','Offsets','Seeds') AND Toxic__c IN ('Animals','Humans','Non Toxic') ORDER BY Name LIMIT 9 OFFSET 0
+```
+
 ## Resources
 
 ## Description of Files and Directories

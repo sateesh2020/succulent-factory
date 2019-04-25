@@ -5,6 +5,50 @@
                 "type": "Succulent__c",
                 "referenceId": "Succulent__cRef1"
             },
+            "Name": "Ladyfinger cactus",
+            "Family__c": "Cactus",
+            "Flowering__c": false,
+            "Grows_During__c": "Spring;Fall",
+            "Height__c": 8,
+            "Image__c": "https://www.succulentsandsunshine.com/wp-content/uploads/2018/09/Mammillaria-elongata-Ladyfinger-Cactus-succulent-care-and-propagation-information-card.jpg",
+            "Propogate_By__c": "Offsets",
+            "Scientific_Name__c": "Mammillaria elongata",
+            "Sun_Light__c": "Full sun to partial shade",
+            "Survive_Cold__c": false,
+            "Toxic__c": "Non Toxic",
+            "Water__c": "Typical water needs for a succulent",
+            "Watering__c": "Mammillaria elongata has typical water needs for a succulent. It’s best to use the “soak and dry” method, and allow the soil to dry out completely between waterings.\r\n\r\nIn the winter when it is dormant, water only sparingly, if at all, to prevent rot.",
+            "Where_to_plant__c": "Mammillaria elongata “Ladyfinger Cactus” is not cold hardy, so if you live in a zone that gets colder than 20° F (-6.7° C), it’s best to plant this succulent in a container that can be brought indoors. It does well in full to partial sun.",
+            "Width__c": 12,
+            "Zone__c": "9a"
+        },
+        {
+            "attributes": {
+                "type": "Succulent__c",
+                "referenceId": "Succulent__cRef2"
+            },
+            "Name": "Ruby Glow",
+            "Family__c": "Un Known",
+            "Flowering__c": false,
+            "Grows_During__c": "Spring;Fall",
+            "Height__c": 10,
+            "Image__c": "https://www.succulentsandsunshine.com/wp-content/uploads/2088/12/Peperomia-graveolens-Ruby-Glow-succulent-care-and-propagation-information.jpg",
+            "Propogate_By__c": "Cuttings",
+            "Scientific_Name__c": "Peperomia graveolens",
+            "Sun_Light__c": "Partial sun to partial shade",
+            "Survive_Cold__c": false,
+            "Toxic__c": "Non Toxic",
+            "Water__c": "Typical water needs for a succulent",
+            "Watering__c": "Peperomia graveolens has typical watering needs for a succulent. It’s best to use the “soak and dry” method, and allow the soil to dry out completely between waterings.",
+            "Where_to_plant__c": "“Ruby Glow” is not cold hardy, so if you live in a zone that gets colder than 20° F (-6.7° C), it’s best to plant this succulent in a container that can be brought indoors. It does well in full to partial sun.",
+            "Width__c": 24,
+            "Zone__c": "9a"
+        },
+        {
+            "attributes": {
+                "type": "Succulent__c",
+                "referenceId": "Succulent__cRef3"
+            },
             "Name": "Echeveria Doris Taylor",
             "Family__c": "Echeveria",
             "Flowering__c": false,
@@ -23,7 +67,7 @@
         {
             "attributes": {
                 "type": "Succulent__c",
-                "referenceId": "Succulent__cRef2"
+                "referenceId": "Succulent__cRef4"
             },
             "Name": "Jelly Beans",
             "Family__c": "Sedum",
@@ -48,7 +92,7 @@
         {
             "attributes": {
                 "type": "Succulent__c",
-                "referenceId": "Succulent__cRef3"
+                "referenceId": "Succulent__cRef5"
             },
             "Name": "Echeveria Black Prince",
             "Family__c": "Echeveria",
@@ -69,7 +113,50 @@
         {
             "attributes": {
                 "type": "Succulent__c",
-                "referenceId": "Succulent__cRef4"
+                "referenceId": "Succulent__cRef6"
+            },
+            "Name": "Blue Chalksticks",
+            "Family__c": "Un Known",
+            "Flowering__c": false,
+            "Grows_During__c": "Spring;Fall",
+            "Height__c": 36,
+            "Image__c": "https://www.succulentsandsunshine.com/wp-content/uploads/2018/06/Senecio-serpens-Blue-Chalksticks-care-and-propagation-information.jpg",
+            "Propogate_By__c": "Cuttings;Seeds",
+            "Scientific_Name__c": "Senecio serpens",
+            "Sun_Light__c": "Plant in full sun",
+            "Survive_Cold__c": false,
+            "Toxic__c": "Animals;Humans",
+            "Water__c": "Typical water needs for a succulent",
+            "Width__c": 36,
+            "Zone__c": "9a"
+        },
+        {
+            "attributes": {
+                "type": "Succulent__c",
+                "referenceId": "Succulent__cRef7"
+            },
+            "Name": "Tom Thumb",
+            "Family__c": "Sedum",
+            "Flowering__c": false,
+            "Grows_During__c": "Spring;Fall",
+            "Height__c": 6,
+            "Image__c": "https://www.succulentsandsunshine.com/wp-content/uploads/2019/02/Crassula-Tom-Thumb-succulent-care-and-propagation-information.jpg",
+            "Offset_Propogation__c": "‘Tom Thumb’ will produce small offsets, sprouting up around the base of the plant. Simply pull these up and allow the offsets to dry for one to two days before replanting.",
+            "Propogate_By__c": "Leaves;Offsets",
+            "Scientific_Name__c": "Crassula ‘Tom Thumb’",
+            "Sun_Light__c": "Full sun to partial shade",
+            "Survive_Cold__c": false,
+            "Toxic__c": "Non Toxic",
+            "Water__c": "Typical water needs for a succulent",
+            "Watering__c": "Crassula ‘Tom Thumb’ has typical watering needs for a succulent. It’s best to use the “soak and dry” method, and allow the soil to dry out completely between waterings.",
+            "Where_to_plant__c": "Crassula ‘Tom Thumb’ is not cold hardy, so if you live in a zone that gets colder than 30° F (-1.1° C), it’s best to plant this succulent in a container that can be brought indoors. It does well in full to partial sun.",
+            "Width__c": 0,
+            "Zone__c": "10a"
+        },
+        {
+            "attributes": {
+                "type": "Succulent__c",
+                "referenceId": "Succulent__cRef8"
             },
             "Name": "Sedum clavatum",
             "Family__c": "Sedum",
@@ -90,7 +177,31 @@
         {
             "attributes": {
                 "type": "Succulent__c",
-                "referenceId": "Succulent__cRef5"
+                "referenceId": "Succulent__cRef9"
+            },
+            "Name": "Propeller Plant",
+            "Family__c": "Un Known",
+            "Flowering__c": false,
+            "Grows_During__c": "Winter",
+            "Height__c": 9,
+            "Image__c": "https://www.succulentsandsunshine.com/wp-content/uploads/2018/06/Crassula-falcata-propeller-plant-or-airplane-plant-care-and-propagation-information.jpg",
+            "Offset_Propogation__c": "Crassula falcata will self-propagate, growing offsets. Cut the offsets off from the main stem with a sharp, sterile knife or scissors. Allow the offsets to dry for one to two days before laying on well-draining soil.",
+            "Other_Names__c": "Airplane Plant",
+            "Propogate_By__c": "Cuttings;Leaves;Offsets",
+            "Scientific_Name__c": "Crassula falcata",
+            "Sun_Light__c": "Full Sun",
+            "Survive_Cold__c": false,
+            "Toxic__c": "Non Toxic",
+            "Water__c": "Typical water needs for a succulent. Be careful not to over-water",
+            "Watering__c": "Propeller Plant has the same watering needs as most succulents. It’s best to water using the “soak and dry” method. Be sure to allow the soil to dry out completely before watering again.",
+            "Where_to_plant__c": "Crassula falcata is one of the few succulents that does well indoors. Plant it in a container near a sunny window.",
+            "Width__c": 12,
+            "Zone__c": "9"
+        },
+        {
+            "attributes": {
+                "type": "Succulent__c",
+                "referenceId": "Succulent__cRef10"
             },
             "Name": "Echeveria Lola",
             "Family__c": "Echeveria",

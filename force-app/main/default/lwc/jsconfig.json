@@ -29,6 +29,9 @@
             ],
             "c/succulentTileList": [
                 "succulentTileList/succulentTileList.js"
+            ],
+            "c/succulentFilter": [
+                "succulentFilter/succulentFilter.js"
             ]
         }
     },

@@ -36,8 +36,16 @@ section {
     font-size: 13px;
     margin-top: 8px;
     text-transform: uppercase;
+    color: lightcoral;
 }
 
 .price {
     color: #c23335;
+}
+
+.bold {
+    font-weight: bold;
+}
+.bold::after {
+    content: ':';
 }

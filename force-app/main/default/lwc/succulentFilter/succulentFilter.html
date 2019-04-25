@@ -1,0 +1,105 @@
+<template>
+    <lightning-card title="Filters" icon-name="standard:calibration">
+        <div class="slds-m-horizontal_medium">
+            <lightning-input
+                label="Search Key"
+                type="search"
+                onchange={handleSearchKeyChange}
+            ></lightning-input>
+            <section>
+                <h1>Family</h1>
+                <template if:true={families.data}>
+                    <template for:each={families.data.values} for:item="family">
+                        <lightning-input
+                            key={family.value}
+                            label={family.label}
+                            data-filter="families"
+                            data-value={family.value}
+                            type="checkbox"
+                            checked
+                            onchange={handleCheckboxChange}
+                        ></lightning-input>
+                    </template>
+                </template>
+                <template if:true={families.error}>
+                    <c-inline-message
+                        message="Error loading families"
+                        errors={families.error}
+                    ></c-inline-message>
+                </template>
+            </section>
+            <section>
+                <h1>Growing Seasons</h1>
+                <template if:true={growingSeasons.data}>
+                    <template
+                        for:each={growingSeasons.data.values}
+                        for:item="growingSeason"
+                    >
+                        <lightning-input
+                            key={growingSeason.value}
+                            label={growingSeason.label}
+                            data-filter=" growingSeasons"
+                            data-value={growingSeason.value}
+                            type="checkbox"
+                            checked
+                            onchange={handleCheckboxChange}
+                        ></lightning-input>
+                    </template>
+                </template>
+                <template if:true={growingSeasons.error}>
+                    <c-inline-message
+                        message="Error loading Seasons"
+                        errors={growingSeasons.error}
+                    ></c-inline-message>
+                </template>
+            </section>
+            <section>
+                <h1>Propogation Method</h1>
+                <template if:true={propogationMethods.data}>
+                    <template
+                        for:each={propogationMethods.data.values}
+                        for:item="propogationMethod"
+                    >
+                        <lightning-input
+                            key={propogationMethod.value}
+                            label={propogationMethod.label}
+                            data-filter="propogationMethods"
+                            data-value={propogationMethod.value}
+                            type="checkbox"
+                            checked
+                            onchange={handleCheckboxChange}
+                        ></lightning-input>
+                    </template>
+                </template>
+                <template if:true={propogationMethods.error}>
+                    <c-inline-message
+                        message="Error loading Propogation Methods"
+                        errors={propogationMethods.error}
+                    ></c-inline-message>
+                </template>
+            </section>
+            <section>
+                <h1>Toxic</h1>
+                <template if:true={toxic.data}>
+                    <template for:each={toxic.data.values} for:item="t">
+                        <lightning-input
+                            key={t.value}
+                            label={t.label}
+                            data-filter="toxic"
+                            data-value={t.value}
+                            type="checkbox"
+                            checked
+                            onchange={handleCheckboxChange}
+                        ></lightning-input>
+                    </template>
+                </template>
+                <template if:true={toxic.error}>
+                    <c-inline-message
+                        message="Error loading Toxic Values"
+                        errors={toxic.error}
+                    ></c-inline-message>
+                </template>
+            </section>
+        </div>
+    </lightning-card>
+</template>
