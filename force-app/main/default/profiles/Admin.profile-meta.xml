@@ -31,6 +31,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Succulent__c.Grows_During__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Succulent__c.Leaf_Propogation__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -56,11 +61,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Succulent__c.Propogate_By__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Succulent__c.Scientific_Name__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -72,6 +72,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Succulent__c.Survive_Cold__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Succulent__c.Toxic__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

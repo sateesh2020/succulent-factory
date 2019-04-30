@@ -3,15 +3,6 @@
         "experimentalDecorators": true,
         "baseUrl": ".",
         "paths": {
-            "c/succulentCard": [
-                "succulentCard/succulentCard.js"
-            ],
-            "c/pubsub": [
-                "pubsub/pubsub.js"
-            ],
-            "c/placeholder": [
-                "placeholder/placeholder.js"
-            ],
             "c/inlineMessage": [
                 "inlineMessage/inlineMessage.js"
             ],
@@ -21,6 +12,18 @@
             "c/paginator": [
                 "paginator/paginator.js"
             ],
+            "c/placeholder": [
+                "placeholder/placeholder.js"
+            ],
+            "c/pubsub": [
+                "pubsub/pubsub.js"
+            ],
+            "c/succulentCard": [
+                "succulentCard/succulentCard.js"
+            ],
+            "c/succulentFilter": [
+                "succulentFilter/succulentFilter.js"
+            ],
             "c/succulentListItem": [
                 "succulentListItem/succulentListItem.js"
             ],
@@ -29,9 +32,6 @@
             ],
             "c/succulentTileList": [
                 "succulentTileList/succulentTileList.js"
-            ],
-            "c/succulentFilter": [
-                "succulentFilter/succulentFilter.js"
             ]
         }
     },
